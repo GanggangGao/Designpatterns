@@ -16,6 +16,9 @@
 #import <Masonry.h>
 #import "ObserverVC.h"
 #import "IteratorVC.h"
+#import "PrototypeVC.h"
+#import "FlyWeightVC.h"
+#import "CompositionVC.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong)NSMutableArray *Array;
@@ -37,6 +40,9 @@
     [self.Array addObject:@"模版方法模式"];
     [self.Array addObject:@"观察者模式"];
     [self.Array addObject:@"迭代器模式"];
+    [self.Array addObject:@"原型模式"];
+    [self.Array addObject:@"享元模式"];
+    [self.Array addObject:@"组合模式"];
     
 }
 
@@ -91,6 +97,15 @@
             break;
         case 7:
             [self.navigationController pushViewController:[[IteratorVC alloc]init] animated:YES];
+            break;
+        case 8:
+            [self.navigationController pushViewController:[[PrototypeVC alloc]init] animated:YES];
+            break;
+        case 9:
+            [self.navigationController pushViewController:[[FlyWeightVC alloc]init] animated:YES];
+            break;
+        case 10:
+            [self.navigationController pushViewController:[[CompositionVC alloc]init] animated:YES];
             break;
         default:
             break;

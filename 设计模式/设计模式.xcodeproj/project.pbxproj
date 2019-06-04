@@ -96,6 +96,23 @@
 		688123882289FC1E00664232 /* ConcurrentCommandDanPinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 688123862289FC1E00664232 /* ConcurrentCommandDanPinVC.xib */; };
 		6881238C2289FCF000664232 /* BlockCommandDanPinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6881238A2289FCF000664232 /* BlockCommandDanPinVC.m */; };
 		6881238D2289FCF000664232 /* BlockCommandDanPinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6881238B2289FCF000664232 /* BlockCommandDanPinVC.xib */; };
+		688723C522A6525000A69F9F /* 原型模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 688723C422A6525000A69F9F /* 原型模式.png */; };
+		688723C922A6559000A69F9F /* PrototypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723C722A6559000A69F9F /* PrototypeVC.m */; };
+		688723CA22A6559000A69F9F /* PrototypeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 688723C822A6559000A69F9F /* PrototypeVC.xib */; };
+		688723CD22A659B600A69F9F /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723CC22A659B600A69F9F /* CarModel.m */; };
+		688723D122A6670B00A69F9F /* CarModel1.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723D022A6670B00A69F9F /* CarModel1.m */; };
+		688723D522A66B0200A69F9F /* CarModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723D422A66B0200A69F9F /* CarModel2.m */; };
+		688723D822A66B3600A69F9F /* LicensePlateNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723D722A66B3600A69F9F /* LicensePlateNumber.m */; };
+		688723DC22A69AA800A69F9F /* TrainTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723DB22A69AA800A69F9F /* TrainTicket.m */; };
+		688723E022A69FDB00A69F9F /* TicketFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723DF22A69FDB00A69F9F /* TicketFactory.m */; };
+		688723E422A6A03200A69F9F /* FlyWeightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723E222A6A03200A69F9F /* FlyWeightVC.m */; };
+		688723E522A6A03200A69F9F /* FlyWeightVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 688723E322A6A03200A69F9F /* FlyWeightVC.xib */; };
+		688723E722A6A90E00A69F9F /* 享元模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 688723E622A6A90E00A69F9F /* 享元模式.png */; };
+		688723EE22A6B3D600A69F9F /* Composite.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723ED22A6B3D600A69F9F /* Composite.m */; };
+		688723F122A6B3DF00A69F9F /* leaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723F022A6B3DF00A69F9F /* leaf.m */; };
+		688723F522A6B6DC00A69F9F /* CompositionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 688723F322A6B6DC00A69F9F /* CompositionVC.m */; };
+		688723F622A6B6DC00A69F9F /* CompositionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 688723F422A6B6DC00A69F9F /* CompositionVC.xib */; };
+		688723F822A6BAB800A69F9F /* 组合模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 688723F722A6BAB800A69F9F /* 组合模式.png */; };
 		68A2C898228C67E60095C170 /* FactoryMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2C896228C67E60095C170 /* FactoryMethodVC.m */; };
 		68A2C899228C67E60095C170 /* FactoryMethodVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A2C897228C67E60095C170 /* FactoryMethodVC.xib */; };
 		68A2C89E228C6AA20095C170 /* MacComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A2C89D228C6AA20095C170 /* MacComputer.m */; };
@@ -393,6 +410,37 @@
 		688123892289FCF000664232 /* BlockCommandDanPinVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockCommandDanPinVC.h; sourceTree = "<group>"; };
 		6881238A2289FCF000664232 /* BlockCommandDanPinVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockCommandDanPinVC.m; sourceTree = "<group>"; };
 		6881238B2289FCF000664232 /* BlockCommandDanPinVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlockCommandDanPinVC.xib; sourceTree = "<group>"; };
+		688723C422A6525000A69F9F /* 原型模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "原型模式.png"; sourceTree = "<group>"; };
+		688723C622A6559000A69F9F /* PrototypeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeVC.h; sourceTree = "<group>"; };
+		688723C722A6559000A69F9F /* PrototypeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeVC.m; sourceTree = "<group>"; };
+		688723C822A6559000A69F9F /* PrototypeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrototypeVC.xib; sourceTree = "<group>"; };
+		688723CB22A659B600A69F9F /* CarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarModel.h; sourceTree = "<group>"; };
+		688723CC22A659B600A69F9F /* CarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarModel.m; sourceTree = "<group>"; };
+		688723CE22A65D4200A69F9F /* CarPrototypeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarPrototypeProtocol.h; sourceTree = "<group>"; };
+		688723CF22A6670B00A69F9F /* CarModel1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarModel1.h; sourceTree = "<group>"; };
+		688723D022A6670B00A69F9F /* CarModel1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarModel1.m; sourceTree = "<group>"; };
+		688723D322A66B0200A69F9F /* CarModel2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarModel2.h; sourceTree = "<group>"; };
+		688723D422A66B0200A69F9F /* CarModel2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarModel2.m; sourceTree = "<group>"; };
+		688723D622A66B3600A69F9F /* LicensePlateNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LicensePlateNumber.h; sourceTree = "<group>"; };
+		688723D722A66B3600A69F9F /* LicensePlateNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LicensePlateNumber.m; sourceTree = "<group>"; };
+		688723DA22A69AA800A69F9F /* TrainTicket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainTicket.h; sourceTree = "<group>"; };
+		688723DB22A69AA800A69F9F /* TrainTicket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainTicket.m; sourceTree = "<group>"; };
+		688723DD22A69EEB00A69F9F /* TrainTicketProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainTicketProtocol.h; sourceTree = "<group>"; };
+		688723DE22A69FDB00A69F9F /* TicketFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketFactory.h; sourceTree = "<group>"; };
+		688723DF22A69FDB00A69F9F /* TicketFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketFactory.m; sourceTree = "<group>"; };
+		688723E122A6A03200A69F9F /* FlyWeightVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyWeightVC.h; sourceTree = "<group>"; };
+		688723E222A6A03200A69F9F /* FlyWeightVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyWeightVC.m; sourceTree = "<group>"; };
+		688723E322A6A03200A69F9F /* FlyWeightVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlyWeightVC.xib; sourceTree = "<group>"; };
+		688723E622A6A90E00A69F9F /* 享元模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "享元模式.png"; sourceTree = "<group>"; };
+		688723E922A6B1AC00A69F9F /* ComponentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComponentProtocol.h; sourceTree = "<group>"; };
+		688723EC22A6B3D600A69F9F /* Composite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Composite.h; sourceTree = "<group>"; };
+		688723ED22A6B3D600A69F9F /* Composite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Composite.m; sourceTree = "<group>"; };
+		688723EF22A6B3DF00A69F9F /* leaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leaf.h; sourceTree = "<group>"; };
+		688723F022A6B3DF00A69F9F /* leaf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leaf.m; sourceTree = "<group>"; };
+		688723F222A6B6DC00A69F9F /* CompositionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompositionVC.h; sourceTree = "<group>"; };
+		688723F322A6B6DC00A69F9F /* CompositionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositionVC.m; sourceTree = "<group>"; };
+		688723F422A6B6DC00A69F9F /* CompositionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompositionVC.xib; sourceTree = "<group>"; };
+		688723F722A6BAB800A69F9F /* 组合模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "组合模式.png"; sourceTree = "<group>"; };
 		68A2C895228C67E60095C170 /* FactoryMethodVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryMethodVC.h; sourceTree = "<group>"; };
 		68A2C896228C67E60095C170 /* FactoryMethodVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodVC.m; sourceTree = "<group>"; };
 		68A2C897228C67E60095C170 /* FactoryMethodVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FactoryMethodVC.xib; sourceTree = "<group>"; };
@@ -943,6 +991,9 @@
 		688122E122894B0200664232 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				688723E822A6B18B00A69F9F /* 组合模式 */,
+				688723D922A6776800A69F9F /* 享元模式 */,
+				688723BF22A6517A00A69F9F /* 原型模式 */,
 				68E42E6822A3A28000372495 /* 迭代器 */,
 				68D864B3229D2ED400A254C1 /* 观察者模式 */,
 				68B29D29229C228D003621A9 /* 模版方法模式 */,
@@ -1067,6 +1118,82 @@
 				6881238B2289FCF000664232 /* BlockCommandDanPinVC.xib */,
 			);
 			path = "闭包命令";
+			sourceTree = "<group>";
+		};
+		688723BF22A6517A00A69F9F /* 原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				688723C422A6525000A69F9F /* 原型模式.png */,
+				688723D222A66A8E00A69F9F /* 多层级原型模式 */,
+				688723C122A6519200A69F9F /* 自定义协议 */,
+				688723C022A6518800A69F9F /* 系统方法 */,
+				688723C622A6559000A69F9F /* PrototypeVC.h */,
+				688723C722A6559000A69F9F /* PrototypeVC.m */,
+				688723C822A6559000A69F9F /* PrototypeVC.xib */,
+			);
+			path = "原型模式";
+			sourceTree = "<group>";
+		};
+		688723C022A6518800A69F9F /* 系统方法 */ = {
+			isa = PBXGroup;
+			children = (
+				688723CB22A659B600A69F9F /* CarModel.h */,
+				688723CC22A659B600A69F9F /* CarModel.m */,
+			);
+			path = "系统方法";
+			sourceTree = "<group>";
+		};
+		688723C122A6519200A69F9F /* 自定义协议 */ = {
+			isa = PBXGroup;
+			children = (
+				688723CE22A65D4200A69F9F /* CarPrototypeProtocol.h */,
+				688723CF22A6670B00A69F9F /* CarModel1.h */,
+				688723D022A6670B00A69F9F /* CarModel1.m */,
+			);
+			path = "自定义协议";
+			sourceTree = "<group>";
+		};
+		688723D222A66A8E00A69F9F /* 多层级原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				688723D322A66B0200A69F9F /* CarModel2.h */,
+				688723D422A66B0200A69F9F /* CarModel2.m */,
+				688723D622A66B3600A69F9F /* LicensePlateNumber.h */,
+				688723D722A66B3600A69F9F /* LicensePlateNumber.m */,
+			);
+			path = "多层级原型模式";
+			sourceTree = "<group>";
+		};
+		688723D922A6776800A69F9F /* 享元模式 */ = {
+			isa = PBXGroup;
+			children = (
+				688723E622A6A90E00A69F9F /* 享元模式.png */,
+				688723DA22A69AA800A69F9F /* TrainTicket.h */,
+				688723DB22A69AA800A69F9F /* TrainTicket.m */,
+				688723DD22A69EEB00A69F9F /* TrainTicketProtocol.h */,
+				688723DE22A69FDB00A69F9F /* TicketFactory.h */,
+				688723DF22A69FDB00A69F9F /* TicketFactory.m */,
+				688723E122A6A03200A69F9F /* FlyWeightVC.h */,
+				688723E222A6A03200A69F9F /* FlyWeightVC.m */,
+				688723E322A6A03200A69F9F /* FlyWeightVC.xib */,
+			);
+			path = "享元模式";
+			sourceTree = "<group>";
+		};
+		688723E822A6B18B00A69F9F /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				688723F722A6BAB800A69F9F /* 组合模式.png */,
+				688723E922A6B1AC00A69F9F /* ComponentProtocol.h */,
+				688723EC22A6B3D600A69F9F /* Composite.h */,
+				688723ED22A6B3D600A69F9F /* Composite.m */,
+				688723EF22A6B3DF00A69F9F /* leaf.h */,
+				688723F022A6B3DF00A69F9F /* leaf.m */,
+				688723F222A6B6DC00A69F9F /* CompositionVC.h */,
+				688723F322A6B6DC00A69F9F /* CompositionVC.m */,
+				688723F422A6B6DC00A69F9F /* CompositionVC.xib */,
+			);
+			path = "组合模式";
 			sourceTree = "<group>";
 		};
 		68A2C894228C66410095C170 /* 工厂方法设计模式 */ = {
@@ -1395,7 +1522,10 @@
 				68B29D30229C3BF9003621A9 /* TemplateVC.xib in Resources */,
 				68A2C899228C67E60095C170 /* FactoryMethodVC.xib in Resources */,
 				6881231D2289C35900664232 /* DynamicCommandDanPinVC.xib in Resources */,
+				688723F622A6B6DC00A69F9F /* CompositionVC.xib in Resources */,
+				688723C522A6525000A69F9F /* 原型模式.png in Resources */,
 				68B29CE22299CEA2003621A9 /* BuilderVC.xib in Resources */,
+				688723E522A6A03200A69F9F /* FlyWeightVC.xib in Resources */,
 				680CDCFC22985C8F0010071E /* 抽象工厂.png in Resources */,
 				688123882289FC1E00664232 /* ConcurrentCommandDanPinVC.xib in Resources */,
 				68E42E6E22A3BD5F00372495 /* IteratorVC.xib in Resources */,
@@ -1408,16 +1538,19 @@
 				68D864D7229D825D00A254C1 /* 观察者模式.png in Resources */,
 				680CDCD82298597F0010071E /* 简单工厂.png in Resources */,
 				681ED221228D30EF003FB6A1 /* 适配器.png in Resources */,
+				688723CA22A6559000A69F9F /* PrototypeVC.xib in Resources */,
 				681ED25F228DC1D5003FB6A1 /* MapFactoryVC.xib in Resources */,
 				68D864C4229D39DD00A254C1 /* ObserverVC.xib in Resources */,
 				68B29D2B229C399F003621A9 /* 模版方法模式.png in Resources */,
 				681232202292B951003FD9A0 /* AMap.bundle in Resources */,
 				68812311228978B900664232 /* CommandDanPinVC.xib in Resources */,
+				688723F822A6BAB800A69F9F /* 组合模式.png in Resources */,
 				681ED21F228D3060003FB6A1 /* 命令模式.png in Resources */,
 				68E42E8022A5605400372495 /* 迭代器模式.png in Resources */,
 				68A53C37228C1F790005F51C /* CommandMainVC.xib in Resources */,
 				68B29D3E229C464F003621A9 /* boren.mp4 in Resources */,
 				688123832289FA0700664232 /* CompoundCommandDanPinVC.xib in Resources */,
+				688723E722A6A90E00A69F9F /* 享元模式.png in Resources */,
 				688122EA22894B0200664232 /* Main.storyboard in Resources */,
 				68B29CDC2299C3E1003621A9 /* 构建者模式.png in Resources */,
 			);
@@ -1462,6 +1595,8 @@
 				6881230022895B6100664232 /* DanPinSwitchCommand.m in Sources */,
 				682623A1228C5C47005A838C /* MoneyAdaptee.m in Sources */,
 				68B29CE12299CEA2003621A9 /* BuilderVC.m in Sources */,
+				688723F122A6B3DF00A69F9F /* leaf.m in Sources */,
+				688723E022A69FDB00A69F9F /* TicketFactory.m in Sources */,
 				68E42E7E22A4E62500372495 /* ConcreteAggregrate.m in Sources */,
 				681231FF2292B600003FD9A0 /* ZhaocaibaoLicai.m in Sources */,
 				688123872289FC1E00664232 /* ConcurrentCommandDanPinVC.m in Sources */,
@@ -1474,6 +1609,7 @@
 				68D864C3229D39DD00A254C1 /* ObserverVC.m in Sources */,
 				681ED271228DD172003FB6A1 /* BaiduMapLocation.m in Sources */,
 				68D864D3229D4A9000A254C1 /* GGContreteObserver.m in Sources */,
+				688723E422A6A03200A69F9F /* FlyWeightVC.m in Sources */,
 				688123182289BF2700664232 /* DynamicCommandManager.m in Sources */,
 				6881230622895CB700664232 /* DanPinSwitchModeCommand.m in Sources */,
 				68B29CD12299B149003621A9 /* DataBaseOrganization.m in Sources */,
@@ -1487,8 +1623,11 @@
 				682623AD228C6250005A838C /* UserModel.m in Sources */,
 				68FE9BBA228C847F00E5B37C /* MapEngine.m in Sources */,
 				6881238C2289FCF000664232 /* BlockCommandDanPinVC.m in Sources */,
+				688723CD22A659B600A69F9F /* CarModel.m in Sources */,
 				682623A5228C5DBB005A838C /* ObjectMoneyAdapter.m in Sources */,
 				681ED284228DDD65003FB6A1 /* BaiduLocation.m in Sources */,
+				688723D122A6670B00A69F9F /* CarModel1.m in Sources */,
+				688723C922A6559000A69F9F /* PrototypeVC.m in Sources */,
 				681232292292BB8D003FD9A0 /* Utils.m in Sources */,
 				682623A9228C6129005A838C /* TableViewBaseAdapter.m in Sources */,
 				680CDCD32297BE760010071E /* NSData+Base64.m in Sources */,
@@ -1499,8 +1638,10 @@
 				688122F222894B0400664232 /* main.m in Sources */,
 				68E42E6D22A3BD5F00372495 /* IteratorVC.m in Sources */,
 				680CDCD42297BE760010071E /* NSString+Base64.m in Sources */,
+				688723D522A66B0200A69F9F /* CarModel2.m in Sources */,
 				681232022292B6B7003FD9A0 /* dingcunbao.m in Sources */,
 				688122FB22894CF700664232 /* DanPinRealization.m in Sources */,
+				688723D822A66B3600A69F9F /* LicensePlateNumber.m in Sources */,
 				68262390228C2AAC005A838C /* ShoppingDynamicCommandManager.m in Sources */,
 				68B29D2F229C3BF9003621A9 /* TemplateVC.m in Sources */,
 				6826239E228C5BE5005A838C /* MoneyAdapter.m in Sources */,
@@ -1522,9 +1663,12 @@
 				681232062292B856003FD9A0 /* CelueVC.m in Sources */,
 				68FE9BA7228C7D3B00E5B37C /* BaiduMapView.m in Sources */,
 				68A2C89E228C6AA20095C170 /* MacComputer.m in Sources */,
+				688723EE22A6B3D600A69F9F /* Composite.m in Sources */,
 				68A53C3B228C20DF0005F51C /* ShoppingVC.m in Sources */,
 				688122E422894B0200664232 /* AppDelegate.m in Sources */,
+				688723DC22A69AA800A69F9F /* TrainTicket.m in Sources */,
 				6881236B2289E6D200664232 /* GenericsCommandManager.m in Sources */,
+				688723F522A6B6DC00A69F9F /* CompositionVC.m in Sources */,
 				681ED25E228DC1D5003FB6A1 /* MapFactoryVC.m in Sources */,
 				68B29CDA2299B2A9003621A9 /* DataBaseDanPin.m in Sources */,
 				6881231C2289C35900664232 /* DynamicCommandDanPinVC.m in Sources */,
