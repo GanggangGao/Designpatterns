@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rkK-Zi-0va">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="vcT-Gt-mRf">
+            <objects>
+                <navigationController id="rkK-Zi-0va" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vps-LT-WM7">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="YTM-nh-RBr" kind="relationship" relationship="rootViewController" id="ivZ-2C-YcT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="slw-9R-uQj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-692" y="157"/>
+        </scene>
+        <!--设计模式-->
+        <scene sceneID="GNh-AY-Zz5">
+            <objects>
+                <viewController id="YTM-nh-RBr" customClass="ViewController" customModule="设计模式_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="53P-bc-PBI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="kHT-H6-URd">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="YTM-nh-RBr" id="PYs-HD-W2W"/>
+                                    <outlet property="delegate" destination="YTM-nh-RBr" id="cby-Vt-IZE"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kHT-H6-URd" firstAttribute="leading" secondItem="HNG-kf-YYO" secondAttribute="leading" id="6Zc-of-VCl"/>
+                            <constraint firstItem="HNG-kf-YYO" firstAttribute="bottom" secondItem="kHT-H6-URd" secondAttribute="bottom" id="Enj-0s-tIi"/>
+                            <constraint firstItem="kHT-H6-URd" firstAttribute="top" secondItem="HNG-kf-YYO" secondAttribute="top" id="yZa-3t-tai"/>
+                            <constraint firstItem="HNG-kf-YYO" firstAttribute="trailing" secondItem="kHT-H6-URd" secondAttribute="trailing" id="ylU-QB-PjM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HNG-kf-YYO"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="设计模式" id="rUb-N6-oXt"/>
+                    <connections>
+                        <outlet property="tableView" destination="kHT-H6-URd" id="H5F-1T-kku"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rxg-fh-PlI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="157"/>
+        </scene>
+    </scenes>
+</document>

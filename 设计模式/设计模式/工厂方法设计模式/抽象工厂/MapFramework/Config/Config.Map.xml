@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<platform>
+    <!---APPKEY放这里，等一下来填写--->
+    <!---百度地图平台--->
+    <platform id="1" isOpen="YES" factoryName="BaiduMapFactory" appkey="UOlbYhHGLOsPrDSbRCBbjYC6IpZUOGuI" />
+    <id>2</id>
+    </platform>
+    <!---高德地图平台--->
+    <platform id="2" isOpen="NO" factoryName="GaodeMapFactory" appkey="c5cbf83248e8af0871d6ecd4e0e7bbaa" />
+    
+</platform>

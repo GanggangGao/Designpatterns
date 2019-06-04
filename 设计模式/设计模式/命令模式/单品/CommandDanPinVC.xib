@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CommandDanPinVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kp-tj-Rka">
+                    <rect key="frame" x="141.5" y="328.5" width="92" height="30"/>
+                    <state key="normal" title="设置间隔时间"/>
+                    <connections>
+                        <action selector="SetTimeClick:" destination="-1" eventType="touchUpInside" id="wML-Zj-Iyj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHA-jL-p0t">
+                    <rect key="frame" x="141.5" y="375" width="92" height="30"/>
+                    <state key="normal" title="设置检测模式"/>
+                    <connections>
+                        <action selector="SwitchModeClick:" destination="-1" eventType="touchUpInside" id="FJO-KH-Ykg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9x-T7-9Jg">
+                    <rect key="frame" x="172" y="278" width="31" height="30"/>
+                    <state key="normal" title="关机"/>
+                    <connections>
+                        <action selector="OffClick:" destination="-1" eventType="touchUpInside" id="PGm-3p-9A9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="K9x-T7-9Jg" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="HTF-yA-qdo"/>
+                <constraint firstItem="1kp-tj-Rka" firstAttribute="centerY" secondItem="Q5M-cg-NOt" secondAttribute="centerY" id="LtY-pr-rye"/>
+                <constraint firstItem="lHA-jL-p0t" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="eUZ-bQ-Zfh"/>
+                <constraint firstItem="lHA-jL-p0t" firstAttribute="top" secondItem="1kp-tj-Rka" secondAttribute="bottom" constant="16.5" id="mbI-Gr-jmU"/>
+                <constraint firstItem="1kp-tj-Rka" firstAttribute="top" secondItem="K9x-T7-9Jg" secondAttribute="bottom" constant="20.5" id="nkw-wk-ZS2"/>
+                <constraint firstItem="1kp-tj-Rka" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="tKF-ZO-x6W"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,14 @@
+//
+//  config.pch
+//  设计模式
+//
+//  Created by zachary spark on 2019/5/28.
+//  Copyright © 2019 3g. All rights reserved.
+//
+
+#ifndef config_pch
+#define config_pch
+
+#import "BudleMainParameter.h"
+#import "UIVIew+Frame.h"
+#endif /* config_pch */
