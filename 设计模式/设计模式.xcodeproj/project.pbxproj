@@ -33,6 +33,16 @@
 		681232202292B951003FD9A0 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6812321B2292B951003FD9A0 /* AMap.bundle */; };
 		681232292292BB8D003FD9A0 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 681232282292BB8D003FD9A0 /* Utils.m */; };
 		681232372292F4A7003FD9A0 /* GGAesEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 681232362292F4A7003FD9A0 /* GGAesEncryption.m */; };
+		6819479322A79A2600EAD540 /* GameMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6819479222A79A2600EAD540 /* GameMemo.m */; };
+		6819479622A79A4F00EAD540 /* GameOriginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6819479522A79A4F00EAD540 /* GameOriginator.m */; };
+		6819479922A79A7B00EAD540 /* GameCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6819479822A79A7B00EAD540 /* GameCaretaker.m */; };
+		6819479E22A7AF9700EAD540 /* MemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6819479C22A7AF9700EAD540 /* MemoVC.m */; };
+		6819479F22A7AF9700EAD540 /* MemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6819479D22A7AF9700EAD540 /* MemoVC.xib */; };
+		681947A322A7D09800EAD540 /* GameJsonMemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 681947A222A7D09800EAD540 /* GameJsonMemo.m */; };
+		681947A622A7D0AF00EAD540 /* GameJsonOriginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 681947A522A7D0AF00EAD540 /* GameJsonOriginator.m */; };
+		681947A922A7FEFF00EAD540 /* JsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 681947A822A7FEFF00EAD540 /* JsonModel.m */; };
+		681947AC22A80A4C00EAD540 /* TotalJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 681947AB22A80A4C00EAD540 /* TotalJsonModel.m */; };
+		681947AE22A819F400EAD540 /* 备忘录.png in Resources */ = {isa = PBXBuildFile; fileRef = 681947AD22A819F400EAD540 /* 备忘录.png */; };
 		681ED21F228D3060003FB6A1 /* 命令模式.png in Resources */ = {isa = PBXBuildFile; fileRef = 681ED21E228D3060003FB6A1 /* 命令模式.png */; };
 		681ED221228D30EF003FB6A1 /* 适配器.png in Resources */ = {isa = PBXBuildFile; fileRef = 681ED220228D30EF003FB6A1 /* 适配器.png */; };
 		681ED24A228DAF44003FB6A1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681ED249228DAF44003FB6A1 /* CoreLocation.framework */; };
@@ -305,6 +315,24 @@
 		6812322C2292F05E003FD9A0 /* EncryptionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptionProtocol.h; sourceTree = "<group>"; };
 		681232352292F4A7003FD9A0 /* GGAesEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGAesEncryption.h; sourceTree = "<group>"; };
 		681232362292F4A7003FD9A0 /* GGAesEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAesEncryption.m; sourceTree = "<group>"; };
+		6819479122A79A2600EAD540 /* GameMemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameMemo.h; sourceTree = "<group>"; };
+		6819479222A79A2600EAD540 /* GameMemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameMemo.m; sourceTree = "<group>"; };
+		6819479422A79A4F00EAD540 /* GameOriginator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameOriginator.h; sourceTree = "<group>"; };
+		6819479522A79A4F00EAD540 /* GameOriginator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOriginator.m; sourceTree = "<group>"; };
+		6819479722A79A7B00EAD540 /* GameCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameCaretaker.h; sourceTree = "<group>"; };
+		6819479822A79A7B00EAD540 /* GameCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameCaretaker.m; sourceTree = "<group>"; };
+		6819479B22A7AF9700EAD540 /* MemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoVC.h; sourceTree = "<group>"; };
+		6819479C22A7AF9700EAD540 /* MemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoVC.m; sourceTree = "<group>"; };
+		6819479D22A7AF9700EAD540 /* MemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoVC.xib; sourceTree = "<group>"; };
+		681947A122A7D09800EAD540 /* GameJsonMemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameJsonMemo.h; sourceTree = "<group>"; };
+		681947A222A7D09800EAD540 /* GameJsonMemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameJsonMemo.m; sourceTree = "<group>"; };
+		681947A422A7D0AF00EAD540 /* GameJsonOriginator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameJsonOriginator.h; sourceTree = "<group>"; };
+		681947A522A7D0AF00EAD540 /* GameJsonOriginator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameJsonOriginator.m; sourceTree = "<group>"; };
+		681947A722A7FEFF00EAD540 /* JsonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonModel.h; sourceTree = "<group>"; };
+		681947A822A7FEFF00EAD540 /* JsonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonModel.m; sourceTree = "<group>"; };
+		681947AA22A80A4C00EAD540 /* TotalJsonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TotalJsonModel.h; sourceTree = "<group>"; };
+		681947AB22A80A4C00EAD540 /* TotalJsonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TotalJsonModel.m; sourceTree = "<group>"; };
+		681947AD22A819F400EAD540 /* 备忘录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "备忘录.png"; sourceTree = "<group>"; };
 		681ED21E228D3060003FB6A1 /* 命令模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "命令模式.png"; sourceTree = "<group>"; };
 		681ED220228D30EF003FB6A1 /* 适配器.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "适配器.png"; sourceTree = "<group>"; };
 		681ED249228DAF44003FB6A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -825,6 +853,47 @@
 			path = "RSA加密";
 			sourceTree = "<group>";
 		};
+		6819479022A7952900EAD540 /* 备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				681947AD22A819F400EAD540 /* 备忘录.png */,
+				681947A022A7D05400EAD540 /* Sample1 */,
+				6819479A22A7AF6E00EAD540 /* Sample */,
+				6819479B22A7AF9700EAD540 /* MemoVC.h */,
+				6819479C22A7AF9700EAD540 /* MemoVC.m */,
+				6819479D22A7AF9700EAD540 /* MemoVC.xib */,
+			);
+			path = "备忘录模式";
+			sourceTree = "<group>";
+		};
+		6819479A22A7AF6E00EAD540 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				6819479122A79A2600EAD540 /* GameMemo.h */,
+				6819479222A79A2600EAD540 /* GameMemo.m */,
+				6819479422A79A4F00EAD540 /* GameOriginator.h */,
+				6819479522A79A4F00EAD540 /* GameOriginator.m */,
+				6819479722A79A7B00EAD540 /* GameCaretaker.h */,
+				6819479822A79A7B00EAD540 /* GameCaretaker.m */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		681947A022A7D05400EAD540 /* Sample1 */ = {
+			isa = PBXGroup;
+			children = (
+				681947A122A7D09800EAD540 /* GameJsonMemo.h */,
+				681947A222A7D09800EAD540 /* GameJsonMemo.m */,
+				681947A422A7D0AF00EAD540 /* GameJsonOriginator.h */,
+				681947A522A7D0AF00EAD540 /* GameJsonOriginator.m */,
+				681947AA22A80A4C00EAD540 /* TotalJsonModel.h */,
+				681947AB22A80A4C00EAD540 /* TotalJsonModel.m */,
+				681947A722A7FEFF00EAD540 /* JsonModel.h */,
+				681947A822A7FEFF00EAD540 /* JsonModel.m */,
+			);
+			path = Sample1;
+			sourceTree = "<group>";
+		};
 		681ED223228DA9C1003FB6A1 /* 抽象工厂 */ = {
 			isa = PBXGroup;
 			children = (
@@ -991,6 +1060,7 @@
 		688122E122894B0200664232 /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				6819479022A7952900EAD540 /* 备忘录模式 */,
 				688723E822A6B18B00A69F9F /* 组合模式 */,
 				688723D922A6776800A69F9F /* 享元模式 */,
 				688723BF22A6517A00A69F9F /* 原型模式 */,
@@ -1519,6 +1589,7 @@
 				681232072292B856003FD9A0 /* CelueVC.xib in Resources */,
 				688122EF22894B0400664232 /* LaunchScreen.storyboard in Resources */,
 				681ED25A228DB0B6003FB6A1 /* mapapi.bundle in Resources */,
+				681947AE22A819F400EAD540 /* 备忘录.png in Resources */,
 				68B29D30229C3BF9003621A9 /* TemplateVC.xib in Resources */,
 				68A2C899228C67E60095C170 /* FactoryMethodVC.xib in Resources */,
 				6881231D2289C35900664232 /* DynamicCommandDanPinVC.xib in Resources */,
@@ -1529,6 +1600,7 @@
 				680CDCFC22985C8F0010071E /* 抽象工厂.png in Resources */,
 				688123882289FC1E00664232 /* ConcurrentCommandDanPinVC.xib in Resources */,
 				68E42E6E22A3BD5F00372495 /* IteratorVC.xib in Resources */,
+				6819479F22A7AF9700EAD540 /* MemoVC.xib in Resources */,
 				681ED286228DED38003FB6A1 /* ConfigMap.plist in Resources */,
 				680CDCFE22985C960010071E /* 工厂方法模式.png in Resources */,
 				68262396228C33E2005A838C /* AdapterMainVC.xib in Resources */,
@@ -1599,6 +1671,7 @@
 				688723E022A69FDB00A69F9F /* TicketFactory.m in Sources */,
 				68E42E7E22A4E62500372495 /* ConcreteAggregrate.m in Sources */,
 				681231FF2292B600003FD9A0 /* ZhaocaibaoLicai.m in Sources */,
+				681947A322A7D09800EAD540 /* GameJsonMemo.m in Sources */,
 				688123872289FC1E00664232 /* ConcurrentCommandDanPinVC.m in Sources */,
 				68B29D34229C3C1C003621A9 /* TemplateAvplayer.m in Sources */,
 				681232372292F4A7003FD9A0 /* GGAesEncryption.m in Sources */,
@@ -1609,14 +1682,18 @@
 				68D864C3229D39DD00A254C1 /* ObserverVC.m in Sources */,
 				681ED271228DD172003FB6A1 /* BaiduMapLocation.m in Sources */,
 				68D864D3229D4A9000A254C1 /* GGContreteObserver.m in Sources */,
+				6819479622A79A4F00EAD540 /* GameOriginator.m in Sources */,
 				688723E422A6A03200A69F9F /* FlyWeightVC.m in Sources */,
+				681947AC22A80A4C00EAD540 /* TotalJsonModel.m in Sources */,
 				688123182289BF2700664232 /* DynamicCommandManager.m in Sources */,
 				6881230622895CB700664232 /* DanPinSwitchModeCommand.m in Sources */,
 				68B29CD12299B149003621A9 /* DataBaseOrganization.m in Sources */,
+				681947A922A7FEFF00EAD540 /* JsonModel.m in Sources */,
 				68A53C43228C224F0005F51C /* ShoppingDynamicCommand.m in Sources */,
 				688123242289D40500664232 /* CompoundCommandManager.m in Sources */,
 				68FE9BAE228C7D4300E5B37C /* GaodeMapView.m in Sources */,
 				688122E722894B0200664232 /* ViewController.m in Sources */,
+				6819479322A79A2600EAD540 /* GameMemo.m in Sources */,
 				68B29D37229C3C51003621A9 /* ConcreteTemplateAvplayer.m in Sources */,
 				68218EA0229032E80015D062 /* GaodeLocation.m in Sources */,
 				68E42E7122A3F39C00372495 /* CusEnumerator.m in Sources */,
@@ -1654,11 +1731,13 @@
 				681ED27B228DD4A8003FB6A1 /* GaodeMapLocation.m in Sources */,
 				68B29D47229CCB69003621A9 /* UIVIew+Frame.m in Sources */,
 				68FE9BA8228C7D3B00E5B37C /* BaiduMapFactory.m in Sources */,
+				681947A622A7D0AF00EAD540 /* GameJsonOriginator.m in Sources */,
 				68A2C898228C67E60095C170 /* FactoryMethodVC.m in Sources */,
 				68A2C8A5228C6C3F0095C170 /* MacComputerFatory.m in Sources */,
 				682623B0228C626D005A838C /* TableVIewUserBaseAdapter.m in Sources */,
 				68812310228978B900664232 /* CommandDanPinVC.m in Sources */,
 				68A2C8A8228C6C590095C170 /* SXComputerFatory.m in Sources */,
+				6819479E22A7AF9700EAD540 /* MemoVC.m in Sources */,
 				68D864D0229D4A7B00A254C1 /* GGContreteObservable.m in Sources */,
 				681232062292B856003FD9A0 /* CelueVC.m in Sources */,
 				68FE9BA7228C7D3B00E5B37C /* BaiduMapView.m in Sources */,
@@ -1672,6 +1751,7 @@
 				681ED25E228DC1D5003FB6A1 /* MapFactoryVC.m in Sources */,
 				68B29CDA2299B2A9003621A9 /* DataBaseDanPin.m in Sources */,
 				6881231C2289C35900664232 /* DynamicCommandDanPinVC.m in Sources */,
+				6819479922A79A7B00EAD540 /* GameCaretaker.m in Sources */,
 				688123772289EBB300664232 /* ConcurrentCommandManager.m in Sources */,
 				688123152289BB7C00664232 /* DynamicCommand.m in Sources */,
 				68A53C36228C1F790005F51C /* CommandMainVC.m in Sources */,

@@ -9,4 +9,6 @@ target '设计模式' do
   pod 'SDWebImage', '~> 5.0.3'
   pod 'AFNetworking', '~> 3.2.1'
   pod 'Masonry', '~> 1.1.0'
+  pod 'JRDB', '~> 2.1.1'
+  pod 'YYModel', '~> 1.0.4'
 end

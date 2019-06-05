@@ -19,6 +19,7 @@
 #import "PrototypeVC.h"
 #import "FlyWeightVC.h"
 #import "CompositionVC.h"
+#import "MemoVC.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong)NSMutableArray *Array;
@@ -43,6 +44,7 @@
     [self.Array addObject:@"原型模式"];
     [self.Array addObject:@"享元模式"];
     [self.Array addObject:@"组合模式"];
+    [self.Array addObject:@"备忘录模式"];
     
 }
 
@@ -106,6 +108,9 @@
             break;
         case 10:
             [self.navigationController pushViewController:[[CompositionVC alloc]init] animated:YES];
+            break;
+        case 11:
+            [self.navigationController pushViewController:[[MemoVC alloc]init] animated:YES];
             break;
         default:
             break;

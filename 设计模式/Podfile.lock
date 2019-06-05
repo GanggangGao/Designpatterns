@@ -14,27 +14,41 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - JRDB (2.1.1):
+    - FMDB
   - Masonry (1.1.0)
   - SDWebImage (5.0.3):
     - SDWebImage/Core (= 5.0.3)
   - SDWebImage/Core (5.0.3)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
+  - JRDB (~> 2.1.1)
   - Masonry (~> 1.1.0)
   - SDWebImage (~> 5.0.3)
+  - YYModel (~> 1.0.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - FMDB
+    - JRDB
     - Masonry
     - SDWebImage
+    - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  JRDB: 3d39482c7314ee58e4c0a8617f131324ccabc214
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: fde7225bb0b913ac42da46637c048dabdeccfba8
+PODFILE CHECKSUM: 9e0565c4bcc8828c0b19f2d64b9ae168c24cc057
 
 COCOAPODS: 1.6.2
