@@ -20,7 +20,7 @@
     if (self) {
         self.point = point;
         self.level = level;
-        self.JsonId = [NSString stringWithFormat:@"%@ld",point + level];
+        self.JsonId = [NSString stringWithFormat:@"%ld",point + level];
     }
     return self;
 }

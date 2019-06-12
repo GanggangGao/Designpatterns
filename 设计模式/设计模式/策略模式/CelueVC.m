@@ -34,7 +34,7 @@
     
     NSString *Str = @"Struggle3g";
     
-    NSData *strdata = [Str dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:NO];
+//    NSData *strdata = [Str dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:NO];
     
     id<EncryptionProtocol> encryption = [[GGAesEncryption alloc]init];
     

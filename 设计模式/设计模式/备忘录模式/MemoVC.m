@@ -26,7 +26,7 @@
     // Do any additional setup after loading the view from its nib.
     
     //简单的应用场景，单一的回退，状态层级1层
-//    [self sample];
+    [self sample];
     
     
     //复杂的应用场景  恢复到过去某个时间状态  状态层级2层，组合状态

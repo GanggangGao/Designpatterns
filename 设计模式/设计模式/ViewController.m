@@ -20,6 +20,15 @@
 #import "FlyWeightVC.h"
 #import "CompositionVC.h"
 #import "MemoVC.h"
+#import "StateVC.h"
+#import "ResponsiblilityVC.h"
+#import "ParserVC.h"
+#import "BridgeVC.h"
+#import "VisitorVC.h"
+#import "AppearanceVC.h"
+#import "MediatorVC.h"
+#import "UserDelegateVC.h"
+#import "DecoratorVC.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic,strong)NSMutableArray *Array;
@@ -45,7 +54,15 @@
     [self.Array addObject:@"享元模式"];
     [self.Array addObject:@"组合模式"];
     [self.Array addObject:@"备忘录模式"];
-    
+    [self.Array addObject:@"状态模式"];
+    [self.Array addObject:@"责任链模式"];
+    [self.Array addObject:@"解析器模式"];
+    [self.Array addObject:@"桥接模式"];
+    [self.Array addObject:@"访问者模式"];
+    [self.Array addObject:@"外观模式"];
+    [self.Array addObject:@"中介者模式"];
+    [self.Array addObject:@"代理模式"];
+    [self.Array addObject:@"装饰者模式"];
 }
 
 
@@ -112,6 +129,34 @@
         case 11:
             [self.navigationController pushViewController:[[MemoVC alloc]init] animated:YES];
             break;
+        case 12:
+            [self.navigationController pushViewController:[[StateVC alloc]init] animated:YES];
+            break;
+        case 13:
+            [self.navigationController pushViewController:[[ResponsiblilityVC alloc]init] animated:YES];
+            break;
+        case 14:
+            [self.navigationController pushViewController:[[ParserVC alloc]init] animated:YES];
+            break;
+        case 15:
+            [self.navigationController pushViewController:[[BridgeVC alloc]init] animated:YES];
+            break;
+        case 16:
+            [self.navigationController pushViewController:[[VisitorVC alloc]init] animated:YES];
+            break;
+        case 17:
+            [self.navigationController pushViewController:[[AppearanceVC alloc]init] animated:YES];
+            break;
+        case 18:
+            [self.navigationController pushViewController:[[MediatorVC alloc]init] animated:YES];
+            break;
+        case 19:
+            [self.navigationController pushViewController:[[UserDelegateVC alloc]init] animated:YES];
+            break;
+        case 20:
+            [self.navigationController pushViewController:[[DecoratorVC alloc]init] animated:YES];
+            break;
+            
         default:
             break;
     }
